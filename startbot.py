@@ -9,7 +9,7 @@ from slackclient import SlackClient
 import librarybot
 
 SLACK_BOT_TOKEN = ''
-with open('bot_secret_token', 'r', encoding='utf-8') as file:
+with open('bot_secret_token.txt', 'r', encoding='utf-8') as file:
     SLACK_BOT_TOKEN = file.readline()
 
 
