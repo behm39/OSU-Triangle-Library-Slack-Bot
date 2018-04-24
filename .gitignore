@@ -1,3 +1,5 @@
 client_secret.json
 bot_secret_token.txt
 __pycache__/
+.idea/
+venv/
